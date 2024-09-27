@@ -4,6 +4,6 @@ type Props = {
 
 export const Container = ({ children }: Props) => {
   return (
-    <div>{children}</div>
+    <div className="w-[1200px]">{children}</div>
   )
 }
