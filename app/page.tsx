@@ -1,3 +1,4 @@
+import { Container } from "./container/container";
 
 
 export default function Home() {
@@ -5,11 +6,17 @@ export default function Home() {
     <>
       <div>
         {/* ==== Header ==== */}
-        <header>Header</header>
+        <header>
+          <Container>Header</Container>
+        </header>
         {/* ==== Main ==== */}
-        <main>Linear</main>
+        <main>
+          <Container>Linear</Container>
+        </main>
         {/* ==== Footer ==== */}
-        <footer>Footer</footer>
+        <footer>
+          <Container>Footer</Container>
+        </footer>
       </div>
     </>
   );
