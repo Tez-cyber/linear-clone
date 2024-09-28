@@ -11,7 +11,7 @@ export default function Home() {
           <Container>Header</Container>
         </header>
         {/* ==== Main ==== */}
-        <main>
+        <main className="relative">
           <Container>
             <Hero>
               <HeroTitle>
@@ -21,6 +21,10 @@ export default function Home() {
                 Meet the new standard for moder software development.
                 <br />Streamline issues, sprints, and product roadmaps
               </HeroSubtitle>
+              <img
+                src="/hero.webp" 
+                alt="HeroImage" 
+              />
             </Hero>
           </Container>
         </main>
