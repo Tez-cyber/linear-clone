@@ -1,5 +1,12 @@
+import { Container } from "./container"
+
 export const Header = () => {
-    return(
-        <></>
+    return (
+        <>
+            {/* ==== Header ==== */}
+            <header>
+                <Container>Header</Container>
+            </header>
+        </>
     )
 }

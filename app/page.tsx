@@ -6,12 +6,8 @@ export default function Home() {
   return (
     <>
       <div>
-        {/* ==== Header ==== */}
-        <header>
-          <Container>Header</Container>
-        </header>
         {/* ==== Main ==== */}
-        <main className="relative">
+        <main>
           <Container>
             <Hero>
               <HeroTitle>
