@@ -1,3 +1,4 @@
+import { Button } from "./button"
 import { Container } from "./container"
 import { Logo } from "./icons/logo"
 import Link from "next/link"
@@ -40,7 +41,7 @@ export const Header = () => {
                     {/* ==== ===== */}
                     <div className="ml-auto h-full flex items-center">
                         <Link className="text-sm mr-6" href="#">Log in</Link>
-                        <Link href="#">Sign up</Link>
+                        <Button href="#">Sign up</Button>
                     </div>
                 </Container>
             </header>
