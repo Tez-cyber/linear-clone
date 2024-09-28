@@ -1,9 +1,11 @@
+import classNames from "classnames"
 type Props = {
     children: React.ReactNode
+    className?: string
 }
 
-export const Container = ({ children }: Props) => {
+export const Container = ({ children, className }: Props) => {
   return (
-    <div className="max-w-[120rem] mx-auto">{children}</div>
+    <div className={classNames("max-w-[120rem] mx-auto", className)}>{children}</div>
   )
 }
