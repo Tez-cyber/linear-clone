@@ -7,12 +7,12 @@ export const Header = () => {
         <>
             {/* ==== Header ==== */}
             <header>
-                <Container>
+                <Container className="flex">
                     <Link className="flex items-center text-md" href="/">
                         <Logo className="w-[1.8rem] h-[1.8rem] mr-4" /> Linear
                     </Link>
                     <nav className="">
-                        <ul>
+                        <ul className="flex">
                             <li className="">
                                 <Link href="#">Features</Link>
                             </li>
