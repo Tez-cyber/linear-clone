@@ -7,11 +7,11 @@ interface HeroElementProps {
 }
 
 export const HeroTitle = ({ children }: HeroElementProps) => {
-    return <h1 className="text-8xl">{children}</h1>
+    return <h1 className="text-8xl my-6">{children}</h1>
 }
 
 export const HeroSubtitle = ({ children }: HeroElementProps) => {
-    return <p className="text-xl">{children}</p>
+    return <p className="text-xl mb-12">{children}</p>
 }
 
 export const Hero = ({ children }: HeroProps) => {

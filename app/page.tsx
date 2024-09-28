@@ -1,5 +1,5 @@
 import { Container } from "./container/container";
-import { Hero } from "./container/hero";
+import { Hero, HeroSubtitle, HeroTitle } from "./container/hero";
 
 
 export default function Home() {
@@ -13,12 +13,15 @@ export default function Home() {
         {/* ==== Main ==== */}
         <main>
           <Container>
-            <Hero
-              title="Linear is a better way to build products"
-              subtitle={`Meet the new standard for moder software development.
-                         Streamline issues, sprints, and product roadmaps
-                `}
-            />
+            <Hero>
+              <HeroTitle>
+                Linear is a better way <br /> to build products
+              </HeroTitle>
+              <HeroSubtitle>
+                Meet the new standard for moder software development.
+                <br />Streamline issues, sprints, and product roadmaps
+              </HeroSubtitle>
+            </Hero>
           </Container>
         </main>
         {/* ==== Footer ==== */}
