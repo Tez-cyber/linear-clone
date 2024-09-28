@@ -1,5 +1,5 @@
-import { Container } from "./container/container";
-import { Hero, HeroSubtitle, HeroTitle } from "./container/hero";
+import { Container } from "./components/container";
+import { Hero, HeroSubtitle, HeroTitle } from "./components/hero";
 
 
 export default function Home() {
