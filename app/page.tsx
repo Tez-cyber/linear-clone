@@ -28,10 +28,6 @@ export default function Home() {
             </Hero>
           </Container>
         </main>
-        {/* ==== Footer ==== */}
-        <footer>
-          <Container>Footer</Container>
-        </footer>
       </div>
     </>
   );
